@@ -18,6 +18,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun loginCreateUserBtnClicked(view: View) {
+        /*sends the user to the create user page when the creat user button is clicked*/
         val createUserIntent = Intent(this, CreatUserActivity::class.java)
         startActivity(createUserIntent)
 

@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loginBtnNavClicked(view: View) {
+        /*sends the user to the login page when the login button is clicked*/
         val loginIntent = Intent(this, LoginActivity::class.java)
         startActivity(loginIntent)
 
